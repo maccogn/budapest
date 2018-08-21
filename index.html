@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Budapest</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="static/style/index.css">
+  <script src="static/script/index.js" defer></script>
+    <script src="static/script/jIndex.js" defer></script>
+
+</head>
+
+<body>
+
+<div>
+    <nav class="navbar navbar-expand-lg navbar bg-dark">
+      <a class="navbar-brand" href="#">Welcome to Budapest!</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <button class="nav-item btn btn-outline-primary" type="button" id="animateBlue">
+                <a  href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    Animate Blue<span class="sr-only"></span>
+                  </a>
+          </button>
+            <button class="nav-item btn btn-outline-primary" type="button">Mover</button>
+            <button class="nav-item btn btn-outline-primary" type="button" id="colorChanger">ColorChanger</button>
+        </div>
+          <div class="navbar-nav ml-auto">
+            <div style="background-color: #F3A900; width: 30px; height: 30px" id="colorBox" data-color-box="#F3A900"></div>
+          </div>
+      </div>
+    </nav>
+</div>
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" >
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1" ></li>
+  </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <div class="container2">
+              <div class="d1">
+                  <img src="static/img/asset3%20(1).png" class="image3">
+                  <div class="middle3">
+                        <div class="text3">Welcome to Budapest!</div>
+                  </div>
+              </div>
+              <div class="d2">
+                <div class="container1">
+                  <div class="d4">
+                    <img src="static/img/asset2%20(1).png" class="image2">
+                      <div class="middle2">
+                        <div class="text2">Welcome to Budapest!</div>
+                      </div>
+                  </div>
+                  <div class="d3">
+                    <img src="static/img/asset1%20(1).png" class="image1">
+                      <div class="middle1">
+                        <div class="text1">Welcome to Budapest!</div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="carousel-item" data-ride="carousel">
+            <div id="blueBudapest">
+                <div class="middleBlue">
+                    <div class="textBlue">Welcome to Budapest!</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>

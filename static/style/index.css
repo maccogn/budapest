@@ -1,0 +1,155 @@
+#blueBudapest {
+    min-height: 100vh;
+    background-color: dodgerblue;
+}
+
+button {
+    margin-right: 20px;
+}
+
+colorBox {
+    background-color: #F3A900;
+    width: 30px;
+    height: 30px;
+}
+
+.container2 {
+    font-size: 40px;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    background-color: #F3A900;
+    grid-template-rows: 100% ;
+
+}
+
+.container1 {
+    font-size:40px;
+    width: 100%;
+    height: 100%;
+    display: grid;
+}
+
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.container1 img {
+  width: 100%;
+  height: 100%;
+}
+
+
+.image3 {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+
+.middle3 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.d1:hover .image3 {
+  opacity: 0.3;
+}
+
+.d1:hover .middle3 {
+  opacity: 1;
+}
+
+.text {
+  color: black;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+.image2 {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+
+.middle2 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+    top: 25%;
+    left: 80%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.d4:hover .image2 {
+  opacity: 0.3;
+}
+
+.d4:hover .middle2 {
+  opacity: 1;
+}
+
+.text {
+  color: black;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+.image1 {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+
+.middle1 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+    top: 85%;
+    left: 80%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.d3:hover .image1 {
+  opacity: 0.3;
+}
+
+.d3:hover .middle1 {
+  opacity: 1;
+}
+
+.textBlue {
+  color: black;
+  font-size: 50px;
+  padding: 16px 32px;
+}
+
+.middleBlue {
+    position: absolute;
+    left: 40%;
+    top: 50%;
+}
