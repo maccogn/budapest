@@ -27,13 +27,16 @@ sliderPage = {
     sliderEvent: () => {
         let btnSlide = document.getElementById("animateBlue");
         btnSlide.addEventListener("click", sliderPage.sliderStart);
+
     },
     sliderStart: () => {
         let carousel = document.getElementById("carouselExampleIndicators");
         let att = document.createAttribute("data-interval");
+        let attSlide = document.createAttribute("data-slide");
         att.value = "5000";
+        attSlide.value = "prev";
         carousel.setAttributeNode(att);
-        setInterval( sliderPage.sliderEnd, 600);
+        setInterval( sliderPage.sliderEnd, 5000);
     },
     sliderEnd: ()=> {
         let carousel = document.getElementById("carouselExampleIndicators");
