@@ -36,7 +36,9 @@
                     Animate Blue<span class="sr-only"></span>
                   </a>
           </button>
-            <button class="nav-item btn btn-outline-primary" type="button">Mover</button>
+            <button class="nav-item btn btn-outline-primary" id="moverBtn" type="button" data-toggle="collapse" data-target="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                <a >Mover</a>
+            </button>
             <button class="nav-item btn btn-outline-primary" type="button" id="colorChanger">ColorChanger</button>
         </div>
           <div class="navbar-nav ml-auto">
@@ -60,8 +62,9 @@
                         <div class="text3">Welcome to Budapest!</div>
                   </div>
               </div>
-              <div class="d2">
-                <div class="container1">
+              <div class="d2" id="sideBoard">
+
+                <div class="container1" id="right-section">
                   <div class="d4">
                     <img src="static/img/asset2%20(1).png" class="image2">
                       <div class="middle2">
@@ -75,12 +78,18 @@
                       </div>
                   </div>
                 </div>
+                  <div class="collapse" id="collapseExample" data-toggle="collapse" data-target="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" style="height: 100%; width: 100%;     background-color: dodgerblue">
+                    <div class="card card-body" style="background-color: dodgerblue">
+                        <p style="left: 80%; top: 50%;">Welcome To Budapest</p>
+                    </div>
+                </div>
               </div>
+
             </div>
         </div>
         <div class="carousel-item" data-ride="carousel">
             <div id="blueBudapest">
-                <div class="middleBlue">
+                <div class="middleBlue" >
                     <div class="textBlue">Welcome to Budapest!</div>
                 </div>
             </div>
